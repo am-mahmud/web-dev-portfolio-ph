@@ -3,31 +3,163 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Dev Portfolio PH</title>
+    <title>Walter White Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/styles/portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
 </head>
-<body class="open-sans-normal">
-    <header>
+<body>
+    <header class="header-bg">
+
         <nav>
-            <h3 class="nav-title">J<span class="text-primary">P</span>M</h3>
             <ul>
-                <li><a class="dark-2" href="">Portfolio</a></li>
-                <li><a class="dark-2" href="">Blogs</a></li>
-                <li><a class="dark-2" href=""><button class="btn-primary">Hire Me</button></a></li>
+                <li><a class="text-primary montserrat-normal" href="">Home</a></li>
+                <li><a class="text-primary montserrat-normal" href="">About</a></li>
+                <li><a class="text-primary montserrat-normal" href="">Contact</a></li>
+                <li><a class="text-secondary montserrat-normal" href=""><button class="btn-primary">Hire Me</button></a></li>
             </ul>
+            <h3 class="montserrat-normal text-primary">Wal <span class="logo-name logo-square">ter</span> White</h3>
         </nav>
+
+        <div class="banner">
+            <div class="banner-content">
+                <h4 class="montserrat-normal text-primary banner-text-h4">Hola!</h4>
+                <h1 class="montserrat-normal text-primary banner-text-h1">Walter White <span class="header-name-desciption">Say My Name</span></h1>
+                <p class="montserrat-normal banner-description text-primary">
+                    All the things that I did, you need to understand. I did it for me. I liked it. I was good at it. I was alive.
+                </p>
+                <button class="btn-primary">Hire Me</button>
+            </div>
+            <img class="banner-img" src="asset/header-img.png" alt="" srcset="">
+        </div>
+
 
     </header>
 
     <main>
 
+        <section class="about montserrat-normal">
+            <h3 class="section-title montserrat-normal">About Me</h3>
+            <p class="section-description montserrat-normal">You clearly don't know who you're talking to, so let me clue you in. I am not in danger, I am the danger. A guy opens his door and gets shot and you think that of me? No. I am the one who knocks!</p>
+            <div class="about-items">
+                <div class="about-item">
+                    <h5 class="item-title">Name</h5>
+                    <p class="item-description">Walter White</p>
+                </div>
+                <div class="about-item">
+                    <h5 class="item-title">Email</h5>
+                    <p class="item-description">walterwhite@breakingbad.com</p>
+                </div>
+                <div class="about-item">
+                    <h5 class="item-title">Date of Birth</h5>
+                    <p class="item-description">September 7,1958</p>
+                </div>
+                <div class="about-item">
+                    <h5 class="item-title">Country</h5>
+                    <p class="item-description">USA</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="skills">
+            <h3 class="section-title montserrat-normal">Let's Cook</h3>
+            <p class="section-description montserrat-normal">I hide in plain sight, just like you. You’re not the only one who understands how to operate in a vacuum. Nothing happens in your organization without my knowledge.</p>
+
+            <div class="skills-container">
+                <div class="skill">
+                    <img class="skills-icon" src="asset/html.png" alt="">
+                    <h5 class="skill-title montserrat-normal">HTML</h5>
+                    <p class="skill-description montserrat-normal">HTML, which stands for HyperText Markup Language, is the standard markup language used to create web pages. It provides the structure and content of a webpage, telling browsers how to display text, images, and other media. </p>
+                </div>
+                <div class="skill">
+                    <img class="skills-icon" src="asset/css-3.png" alt="">
+                    <h5 class="skill-title montserrat-normal">CSS</h5>
+                    <p class="skill-description montserrat-normal">Cascading Style Sheets is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML or XML. </p>
+                </div>
+                <div class="skill">
+                    <img class="skills-icon" src="asset/js.png" alt="">
+                    <h5 class="skill-title montserrat-normal">Vanila Java Script</h5>
+                    <p class="skill-description montserrat-normal">JavaScript, often abbreviated as JS, is a high-level, interpreted programming language primarily used to make web pages interactive. It allows for dynamic content updates, animations, and user interaction on websites, making them more engaging and responsive. While traditionally used for front-end development, JavaScript can also be used for back-end development with platforms like Node.js. </p>
+                </div>
+                <div class="skill">
+                    <img class="skills-icon" src="asset/social.png" alt="">
+                    <h5 class="skill-title montserrat-normal">Git/Github</h5>
+                    <p class="skill-description montserrat-normal">GitHub is a web-based platform that uses the Git version control system to facilitate collaborative software development. It acts as a central hub for storing, managing, and sharing code, allowing multiple developers to work on the same project simultaneously and track changes.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="mern-lab">
+            <h2 class="montserrat-normal mern-lab-text">That thing I cook is the bomb</h2>
+        </section>
+
+        <section class="our-team">
+            <h3 class="montserrat-normal section-title">Our Team</h3>
+            <div class="team-container">
+                <div class="team-member">
+                    <img class="team-img" src="asset/founder.jpg" alt="">
+                    <h5 class="montserrat-normal">Founder and CEO</h5>
+                </div>
+                <div class="team-member">
+                    <img class="team-img" src="asset/sn-dev.jpg" alt="">
+                    <h5 class="montserrat-normal">Senior Devoloper</h5>
+                </div>
+                 <div class="team-member">
+                    <img class="team-img" src="asset/hr.jpg" alt="">
+                    <h5 class="montserrat-normal">Human Resource</h5>
+                </div>
+                <div class="team-member">
+                    <img class="team-img" src="asset/mk-head.jpg" alt="">
+                    <h5 class="montserrat-normal">Marketing Head</h5>
+                </div>
+            </div>
+            
+
+        </section>
+
+        
+
     </main>
 
-    <footer>
+    <footer class="footer-bg">
 
+        <div class="footer-column">
+            <h3 class="montserrat-normal">Lets Connect</h3>
+            <p class="montserrat-normal footer-text">Please fill out the form and contact me. My working day is Monday to Thursday.</p>
+            <div>
+                <a  href=""><img class="footer-social" src="asset/instagram.png" alt=""></a>
+                <a  href=""><img class="footer-social" src="asset/linkedin.png" alt=""></a>
+                <a  href=""><img class="footer-social" src="asset/message.png" alt=""></a>
+            </div>
+            
+            <img class="footer-img" src="asset/van.png" alt="" srcset="">
+            
+        </div>
+        <div class="footer-column">
+            <h3 class="montserrat-normal">Let's Inbox Me</h3>
+            <form action="">
+                <input class="montserrat-normal text-secondary" type="text" placeholder="Your Name">
+                <input class="montserrat-normal text-secondary" type="email" placeholder="Yout Email Address">
+                <textarea class="montserrat-normal text-secondary" name="" id="" cols="50" rows="10" placeholder="Message"></textarea>
+                <!-- <textarea id="gg" name="gg" rows="4" cols="50"></textarea> -->
+                <input class="montserrat-normal btn-primary" type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div class="footer-column">
+                <img class="footer-subscribe" src="asset/newsletter.png" alt="">
+                <h3 class="montserrat-normal">Subscribe Newslater</h3>
+                <p class="montserrat-normal">I blew it. I broke bad</p>
+                <form action="">
+                    <input class="montserrat-normal text-secondary" type="text" placeholder="Your Name">
+                    <input class="montserrat-normal text-secondary" type="email" placeholder="Your Email Address">
+                    <input class="montserrat-normal btn-primary" type="submit" value="Subscribe">
+                </form>
+        </div>
+     
     </footer>
+
 </body>
 </html>

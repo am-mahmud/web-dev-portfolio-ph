@@ -1,0 +1,274 @@
+
+/* Font Style */
+
+
+.montserrat-normal{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+/* Shared Style */
+
+.text-primary{
+    color: whitesmoke;
+}
+
+.text-secondary{
+    color: white;
+}
+
+.btn-primary{
+    background-color: whitesmoke;
+    font-weight: bold;
+    color: #0c3e11;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+}
+
+/* Nav Style */
+
+nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0 85px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.logo-name{
+    color: whitesmoke;
+}
+
+.logo-square{
+    background-color: #599636;
+    height: 50px;
+    width: 50px;
+    padding: 10px 15px;
+    border-radius: 2px;
+    
+}
+
+/* header style */
+
+.header-bg{
+    background-color: #0c3e11;
+}
+
+.banner-text-h4{
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.banner-text-h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.banner{
+    display: flex;
+    padding: 60px 150px;
+    gap: 100px;
+}
+
+.banner-content{
+    width: 50%;
+}
+
+.banner-img{
+    height: 450px;
+    width: 350px;
+    margin-left: 30px;
+}
+
+.header-name-desciption{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* footer style */
+
+footer{
+    padding: 40px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.footer-text{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer-social{
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    margin-left: 0;
+}
+
+.footer-subscribe{
+    height: 60px;
+    width: 60px;
+}
+
+.footer-img{
+  width: 200px;
+  height: auto;
+  margin-right: 10px;
+}
+
+    
+.footer-bg{
+    background-color: #F7D350;
+}
+
+.footer-column{
+    width: 30%;
+    padding: 30px;
+}
+
+footer input[type="text"], footer input[type="email"]{
+    height: 30px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
+}
+
+footer textarea{
+    border-radius: 5px;
+    background-color: whitesmoke;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+
+/* main section */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    padding: 130px 150px;
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
+.section-title{
+    font-size: 35px;
+    color: #0c3e11;
+}
+
+/* .mern-lab-img{
+    height: 700px;
+    width: 1140px;
+} */
+
+.mern-lab{
+    background-image: url(asset/mern-lab.png);
+    height: 700px;
+    width: 1140px;
+    background-repeat: no-repeat;
+    margin-bottom: 130px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mern-lab-text{
+    font-size: 50px;
+    color: whitesmoke;
+    /* text-align: center; */
+}
+
+.about-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item-title{
+    font-size: 15px;
+    color: #0c3e11;
+}
+
+.skills{
+    text-align: center;
+    /* padding: 80px 150px; */
+    /* margin-top: 80px; */
+    margin-bottom: 130px;
+}
+
+.skills-icon{
+    height: 50px;
+    width: 50px;
+}
+
+.skills-container{
+    text-align: justify;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    height: 550px;
+    gap: 25px;
+}
+
+.skill{
+    padding: 30px;
+    box-shadow: 0 2px 10px 0 #0c3e11;
+    width: 500px;
+
+}
+
+/* Our Team Section */
+
+.team-img{
+    height: 278px;
+    width: 278px;
+}
+
+.our-team{
+    text-align: center;
+    padding-bottom: 130px;
+    max-width: 1140px;
+}
+
+.team-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
